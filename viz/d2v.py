@@ -15,8 +15,7 @@ print(filename)
 
 
 iris =  np.loadtxt(filename,
-            dtype={
-            'names': ('sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'),
+            dtype={'names': ('sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'),
             'formats': (np.float, np.float, np.float, np.float, '|S15')},
             delimiter=',', skiprows=0)
           #usecols=[0,1,2,3,4],

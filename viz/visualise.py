@@ -8,17 +8,9 @@
 import numpy as np
 #import requests
 
-# Load dataset from github
-#import wget
-#url = 'https://raw.githubusercontent.com/zonination/perceptions/master/probly.csv'
-#wfilename = wget.download(url)
-#print(wfilename)
-#import shutil
-#shutil.move("../violin_data.csv", "./violin_data.csv")
 filename = '/Users/meeladavis/Python/pythonscripts/Viz/iris.csv'
-print(filename)
 
-iris =  np.loadtxt(filename, delimiter=",")
+iris =  np.load_txt(filename, delimiter=",")
 print(iris)
 
 # library & dataset
