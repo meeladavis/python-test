@@ -6,7 +6,6 @@ import numpy as np
 
 # Create a numpy array from baseball: np_baseball
 np_baseball = np.array(baseball)
-
 #print type
 print(type(np_baseball))
 
